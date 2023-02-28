@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+  <link href="style.css" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    .table-item{
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      }
+    p{
+      font-size:10px;
+      margin: 0;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <article>
+    <header>
+    </header>
+
+    <section>
+        <div>
+          <!-- <h2>Samples in our Corpus</h2> -->
+          <table border="1">
+            <tr>
+              <td class="table-item">Cancel my morning alarm</td>
+              <td class="table-item">Open my Facebook</td>
+              <!-- <td class="table-item">Echo</td> -->
+              <td class="table-item">Open the door</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="table-item"> <b>Normally Audible-band Audio</b> </td>
+            </tr>
+            <tr>
+              <td><audio controls><source src="./wavs/audible/cancel_my_morning_alarm.mp3"></audio></td>
+                <td><audio controls><source src="./wavs/audible/open_my_facebook.mp3"></audio></td>
+                <td><audio controls><source src="./wavs/audible/open_the_door.mp3"></audio></td>
+            </tr>
+            <tr>
+              <td colspan="3" class="table-item"> Typical Ultrasound-based Attacks Recorded by <i>iPhone14</i> 
+                <p>The sound is relatively soft, please turn up the volume</p>
+              </td>
+            </tr>
+            <tr>
+              <td><audio controls><source src="./wavs/iphone14/cancel_my_morning_alarm.wav"></audio></td>
+                <td><audio controls><source src="./wavs/iphone14/open_my_facebook.wav"></audio></td>
+                <td><audio controls><source src="./wavs/iphone14/open_the_door.wav"></audio></td>
+              </tr>
+            <tr>
+              <td colspan="3" class="table-item"> Typical Ultrasound-based Attacks Recorded by <i>Mix2S</i> </td>
+            </tr>
+            <tr>
+              <td><audio controls><source src="./wavs/mix2s/cancel_my_morning_alarm.wav"></audio></td>
+                <td><audio controls><source src="./wavs/mix2s/open_my_facebook.wav"></audio></td>
+                <td><audio controls><source src="./wavs/mix2s/open_the_door.wav"></audio></td>
+              </tr>
+            <tr>
+              <td colspan="3" class="table-item"> Typical Ultrasound-based Attacks Recorded by <i>ReSpeaker</i> </td>
+            </tr>
+            <tr>
+              <td><audio controls><source src="./wavs/ReSpeaker/cancel_my_morning_alarm.wav"></audio></td>
+                <td><audio controls><source src="./wavs/ReSpeaker/open_my_facebook.wav"></audio></td>
+                <td><audio controls><source src="./wavs/ReSpeaker/open_the_door.wav"></audio></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    <footer>
+
+    </footer>
+  </article>
+</body>
+
+</html>
